@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorithms</title>
+    <link rel="stylesheet" href="stylealgorithms.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+            <img class="logo" src="logo.png" alt="logo">
+            <div class="items">
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="algorithms.html">ALGORITHMS</a></li>
+                <li><a href="demonstration.html">DEMONSTRATION</a></li>
+            </ul>
+            </div>
+    
+        </div>
+        </nav>
+    </header>
+    <div class="heading">
+    <h1>Algorithms are used to resolve the Network Congestion issue </h1>
+    <button type="button">Demonstrate</button>
+</div>
+    <div class="section1">
+        <div class="info">
+            <h2>LEAKY BUCKET ALGORITHM</h2>
+            <p>Suppose we have a bucket in which we are pouring water, at random points in time, 
+                but we have to get water at a fixed rate, to achieve this we will make a hole at the 
+                bottom of the bucket. This will ensure that the water coming out is at some fixed rate, 
+                and also if the bucket gets full, then we will stop pouring water into it. The input rate
+                 can vary, but the output rate remains constant. Similarly, in networking,
+                  a technique called leaky bucket can smooth out bursty traffic. 
+                  Bursty chunks are stored in the bucket and sent out at an average rate.</p>
+        </div>
+
+        <div>
+            <img class="leaky" src="leakybucket.png" alt="leakybucket">
+        </div>
+    </div>
+    
+    <div class="section2">
+        <div class="info">
+            <h2>TOKEN BUCKET ALGORITHM</h2>
+            <p>The leaky bucket algorithm enforces output patterns at the average rate, 
+                no matter how busy the traffic is. So, to deal with the more traffic,
+                 we need a flexible algorithm so that the data is not lost. 
+                 One such approach is the token bucket algorithm.
+                Let us understand this algorithm step wise as given below :
+                In regular intervals tokens are thrown into the bucket. The bucket has a maximum capacity. 
+                If the packet is ready, then a token is removed from the bucket, and the packet is sent.  
+                Suppose, if there is no token in the bucket, the packet cannot be sent.</p>
+            
+        </div>
+        <div >
+            <img class="token" src="tokens.png" alt="tokenbucket">
+        </div>
+    </div>
+
+    
+</body>
+</html>

@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Ibarra+Real+Nova&family=Open+Sans&family=Roboto+Slab&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:#050D32;
+}
+nav{
+
+
+    background:-moz-linear-gradient(90deg, rgba(7, 7, 54, 1) 0%, rgba(2, 89, 133, 1) 50%, rgba(5, 5, 40, 1) 100%); 
+
+    background:-webkit-linear-gradient(90deg, rgba(7, 7, 54, 1) 0%, rgb(2, 82, 122) 50%, rgba(5, 5, 40, 1) 100%);
+
+    /*background:linear-gradient(90deg, rgba(7, 7, 54, 1) 0%, rgba(2, 89, 133, 1) 50%, rgba(5, 5, 40, 1) 100%);*/
+
+}
+            
+    
+.navbar{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    
+}
+.logo{
+    width: 7%;
+    margin-left: 5em;  
+}
+
+nav ul{
+list-style: none;
+display: flex;
+padding: 0;
+}
+
+.items{
+    margin-left: 40em;
+    margin-top: 2.5em;
+}
+nav li{
+    margin: 0 3em;
+ }
+    
+nav a{
+text-decoration: none;
+color: white;
+font-weight: 550;
+padding: .5em 0;
+font-size: 1.1rem;
+font-family:Arial, Helvetica, sans-serif ;
+}
+
+.firsthalf{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 3em;
+    margin-left: 4em;
+}
+h1{
+    color: #EBE951;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 3.1rem;
+
+}
+h2{
+    color: white;
+    font-weight: 200;
+    font-size: 2.2rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h4{
+    color: white;
+    font-weight: 50;
+    font-size: 1.3rem;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.image{
+    width: 29%;
+    height: 20%;
+    margin-top: -3em;
+}
+.secondhalf{
+    color: #BFBFFF;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+button{
+                  
+    background:-moz-linear-gradient(90deg, rgba(195, 46, 30, 1) 0%, rgba(172, 9, 56, 1) 50%, rgba(152, 2, 37, 1) 100%); 
+    background:-webkit-linear-gradient(90deg, rgba(195, 46, 30, 1) 0%, rgba(172, 9, 56, 1) 50%, rgba(152, 2, 37, 1) 100%);
+    background:-o-linear-gradient(90deg, rgba(195, 46, 30, 1) 0%, rgba(172, 9, 56, 1) 50%, rgba(152, 2, 37, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#980225', endColorstr='#C32E1E', GradientType=0 );
+    background:-ms-linear-gradient(90deg, rgba(195, 46, 30, 1) 0%, rgba(172, 9, 56, 1) 50%, rgba(152, 2, 37, 1) 100%);
+    background:linear-gradient(90deg, rgba(195, 46, 30, 1) 0%, rgba(172, 9, 56, 1) 50%, rgba(152, 2, 37, 1) 100%);
+    padding: 0.6em 1em;
+   font-family:Arial, Helvetica, sans-serif;
+   color: white;
+   font-size: 1.3rem;
+   border-radius: 30px;
+   border-color:rgb(244, 131, 131);
+   
+}

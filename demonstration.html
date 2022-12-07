@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demonstration</title>
+    <link rel="stylesheet" href="styledemonstration.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+            <img class="logo" src="logo.png" alt="logo">
+            <div class="items">
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="algorithms.html">ALGORITHMS</a></li>
+                <li><a href="demonstration.html">DEMONSTRATION</a></li>
+            </ul>
+            </div>
+    
+        </div>
+        </nav>
+    </header>
+
+    <h1>Demonstration of Algorithms</h1>
+    <h4>You need to give some inputs</h4>
+
+    <span class="span">
+        <h1>Token Bucket Algorithm</h1>
+        <form>
+            <label> Array </label>
+            <input class="tokenArray" required>
+            <label> Bucket Size </label>
+            <input class="tokenSize" required>
+            <label> Refill Interval </label>
+            <input class="tokenInterval" required>
+            <button class="submit" type="submit" onclick="tokenBucket()">Submit</button>
+        </form>
+    </span>
+
+    <span class="span">
+        <h1>Leaky Bucket Algorithm</h1>
+        <form>
+            <label> Array </label>
+            <input class="leakyArray" required>
+            <label> Leak Rate </label>
+            <input class="leakRate" required>
+            <button class="submit" type="submit" onclick="leakyBucket()">Submit</button>
+        </form>
+    </span>
+<div class="container">
+
+   
+    <div class="graph">
+
+    </div>
+    <div class="comparison">
+
+    </div>
+</div>
+    
+</body>
+<script src="script.js">
+
+</script>
+</html>
